@@ -1,0 +1,79 @@
+/* Container geral da lista de tarefas */
+.tasklist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+  }
+  
+  /* Lista de tarefas */
+  .tasklist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Item da tarefa */
+  .tasklist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Botão de editar e excluir */
+  .tasklist-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .tasklist-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Inputs e botões do formulário */
+  .task-input, .task-submit-button {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .task-input {
+    width: calc(100% - 22px);
+  }
+  
+  .task-submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Formulário de edição de tarefas */
+  .edit-task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-task-form input {
+    width: calc(100% - 22px);
+  }
+  
